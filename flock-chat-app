@@ -1,0 +1,9 @@
+#! /bin/sh -
+
+echo "run application \"Flock\""
+echo "activate application \"Flock\""
+echo "delay (1)"
+echo "tell application \"System Events\" to keystroke \"N\" using command down"
+echo "tell application \"System Events\" to keystroke \"$1\""
+echo "tell application \"System Events\" to key code 36"
+

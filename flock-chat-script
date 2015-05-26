@@ -1,0 +1,4 @@
+#! /bin/sh -
+
+`./flock-chat-app $2 > ./flock-chat-app.tmp`
+`/usr/bin/osacompile -o /Applications/$1.app ./flock-chat-app.tmp`
